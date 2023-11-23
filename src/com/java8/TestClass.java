@@ -8,7 +8,7 @@ public class TestClass implements InterFace{
 	    System.out.println(avrege);
 	}
 	public void car (String s , String y ) {
-		System.out.println(s);
+		System.out.print(s);
 		System.out.println(y);
 	}
 	public void scutor(String brand) {
@@ -17,6 +17,11 @@ public class TestClass implements InterFace{
 	}
 	public static void main(String[] args) {
 		
+		TestClass ts= new TestClass();
+		ts.m1();
+		ts.car("hero" , "honda");
+		ts.bicke(" capisity => ten Leter", 50);
+		ts.scutor("honda");
 	}
 	
 
